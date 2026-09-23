@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files (NEVER commit these)
+.env
+backend/.env
+frontend/.env
+blockchain/.env
+
+# Build artifacts
+frontend/build/
+blockchain/artifacts/
+blockchain/cache/
+
+# Deployment records (contain contract addresses)
+blockchain/deployments/*.json
+
+# Misc
+.DS_Store
+*.log
+coverage/
