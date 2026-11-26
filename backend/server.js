@@ -64,7 +64,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-cconst PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 // Local development only
 if (require.main === module) {
