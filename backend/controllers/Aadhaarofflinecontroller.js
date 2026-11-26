@@ -1,4 +1,4 @@
-const { verifyAadhaarOffline } = require("../services/Aadhaarofflineservice");
+const { verifyAadhaarOffline } = require("../services/aadhaarOfflineService");
 const User = require("../models/User");
 const jwt  = require("jsonwebtoken");
 const blockchainService = require("../services/blockchainService");
