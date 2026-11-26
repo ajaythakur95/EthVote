@@ -3,7 +3,7 @@ const router   = express.Router();
 const multer   = require("multer");
 const rateLimit = require("express-rate-limit");
 
-const aadhaarOfflineController = require("../controllers/aadhaarOfflineController");
+const aadhaarOfflineController = require("../controllers/Aadhaarofflinecontroller")
 const authController           = require("../controllers/authController");
 const livenessSessionStore     = require("../services/livenessSessionStore");
 const { upload } = require("../middleware/upload");

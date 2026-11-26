@@ -3,7 +3,7 @@ const router = express.Router();
 const multer = require("multer");
 const { protect, authorize, adminConstituencyGuard } = require("../middleware/auth");
 const ctrl = require("../controllers/candidateController");
-const bulkCtrl = require("../controllers/candidateBulkController");
+const bulkCtrl = require("../controllers/Candidatebulkcontroller");
 const { upload } = require("../middleware/upload");
 
 // CSV ke liye memory storage (Cloudinary pe nahi jaana)
